@@ -3,15 +3,29 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "Author": "Vcfrancog",
+  "dependencies": {
+    "express": "^4.17.1",
+    "knex": "^0.95.11",
+    "pg": "^8.7.1",
+    "dotenv": "10.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vcfrancog/Api-rest.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.1",
-    "knex": "^0.95.11",
-    "pg": "^8.7.1"
-  }
+  "bugs": {
+    "url": "https://github.com/Vcfrancog/Api-rest/issues"
+  },
+  "homepage": "https://github.com/Vcfrancog/Api-rest#readme"
 }
